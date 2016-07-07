@@ -11,3 +11,7 @@ cp /usr/share/X11/xkb/symbols/lk /your/backup/location/lk.backup
 ```
 02. Replace the lk file with the layout file you find in this repository. 
 
+
+# How to type
+
+Character map

@@ -35,19 +35,21 @@ xkb_symbols "sin_phonetic" {
   name[Group1] = "Sinhala (phonetic)";
   key.type[Group1] = "FOUR_LEVEL";
 
+
+
   // q - p
   key <AD01> { [ Sinh_u2, Sinh_uu2, NoSymbol, NoSymbol ] };
-  key <AD02> { [ Sinh_u, Sinh_a, NoSymbol, NoSymbol ] };
+  key <AD02> { [ Sinh_a, Sinh_u, NoSymbol, NoSymbol ] };
   key <AD03> { [ Sinh_ae2, Sinh_aee2, NoSymbol, NoSymbol ] };
   key <AD04> { [ Sinh_ra, Sinh_ri, Sinh_rii, NoSymbol ] };
-  key <AD05> { [ Sinh_e, Sinh_o, NoSymbol, NoSymbol ] };
+  key <AD05> { [ Sinh_e, Sinh_ee, Sinh_o, Sinh_oo ] };
   key <AD06> { [ Sinh_ha, Sinh_sha, NoSymbol, NoSymbol ] };
   key <AD07> { [ Sinh_ma, Sinh_mba, NoSymbol, NoSymbol ] };
   key <AD08> { [ Sinh_sa, Sinh_ssha, NoSymbol, NoSymbol ] };
-  key <AD09> { [ Sinh_dha, Sinh_dhha, NoSymbol, NoSymbol ] };
+  key <AD09> { [ Sinh_dha, Sinh_dhha, Sinh_ndha, NoSymbol ] };
   key <AD10> { [ Sinh_ca, Sinh_cha, NoSymbol, NoSymbol ] };
   key <AD11> { [ bracketleft, braceleft, Sinh_nya, Sinh_jnya ] };
-  key <AD12> { [ bracketright, braceright, semicolon,      colon ] };
+  key <AD12> { [ bracketright, braceright, semicolon, colon ] };
 
   // a - l
   key <AC01> { [ Sinh_al, Sinh_lu2, NoSymbol, NoSymbol ] };
@@ -61,8 +63,6 @@ xkb_symbols "sin_phonetic" {
   key <AC09> { [ Sinh_ka, Sinh_kha, NoSymbol, NoSymbol ] };
   key <AC10> { [ Sinh_tha, Sinh_thha,  NoSymbol, NoSymbol ] };
   key <AC11> { [ period, comma, NoSymbol, NoSymbol ] };
-
-
 
   // z - ?
   key <AB01> { [ apostrophe, quotedbl, NoSymbol, NoSymbol ] };
