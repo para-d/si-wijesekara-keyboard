@@ -1,4 +1,4 @@
-# Sinhala Wijesekara Layout Key Board
+# Sinhala Wijesekara Layout Keyboard
 Sinhala - Wijesekara layout keyboard for Ubuntu based distributions.
 
 Within this repository you can find a modified key mapper (symbols) file of xkb lk layout.
