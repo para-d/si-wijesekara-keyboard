@@ -1,3 +1,7 @@
+// This is a modified version of the below mentioned X Keyboard Extension file.
+// Only the key bindings have been changed to mimic Wijesekara layout keyboard.
+// Respect should go to the below mentioned maintainer.
+
 // X Keyboard Extension file for Sinhala (Sri Lanka) (2004-04-22)
 // Maintainer  : Harshula Jayasuriya <harshula@gmail.com>
 // Last Updated: 2011-05-25
@@ -39,8 +43,8 @@ xkb_symbols "sin_phonetic" {
 
   // q - p
   key <AD01> { [ Sinh_u2, Sinh_uu2, NoSymbol, NoSymbol ] };
-  key <AD02> { [ Sinh_a, Sinh_u, NoSymbol, NoSymbol ] };
-  key <AD03> { [ Sinh_ae2, Sinh_aee2, NoSymbol, NoSymbol ] };
+  key <AD02> { [ Sinh_a, Sinh_u, Sinh_aa, Sinh_uu ] };
+  key <AD03> { [ Sinh_ae2, Sinh_aee2, Sinh_ae, Sinh_aee ] };
   key <AD04> { [ Sinh_ra, Sinh_ri, Sinh_rii, NoSymbol ] };
   key <AD05> { [ Sinh_e, Sinh_ee, Sinh_o, Sinh_oo ] };
   key <AD06> { [ Sinh_ha, Sinh_sha, NoSymbol, NoSymbol ] };
